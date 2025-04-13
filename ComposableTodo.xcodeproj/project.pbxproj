@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF0A1D712DAB8350004E4EE7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FF0A1D702DAB8350004E4EE7 /* FirebaseAnalytics */; };
-		FF0A1D732DAB8350004E4EE7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FF0A1D722DAB8350004E4EE7 /* FirebaseAuth */; };
-		FF0A1D752DAB8350004E4EE7 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = FF0A1D742DAB8350004E4EE7 /* FirebaseCore */; };
-		FF0A1D772DAB8350004E4EE7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FF0A1D762DAB8350004E4EE7 /* FirebaseFirestore */; };
-		FF0A1D7A2DAB8370004E4EE7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = FF0A1D792DAB8370004E4EE7 /* ComposableArchitecture */; };
 		FF0A1D842DAB88AF004E4EE7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FF0A1D832DAB88AF004E4EE7 /* .gitignore */; };
 		FF0A1D862DAB88D4004E4EE7 /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = FF0A1D852DAB88D4004E4EE7 /* project.yml */; };
 /* End PBXBuildFile section */
@@ -64,11 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0A1D7A2DAB8370004E4EE7 /* ComposableArchitecture in Frameworks */,
-				FF0A1D712DAB8350004E4EE7 /* FirebaseAnalytics in Frameworks */,
-				FF0A1D772DAB8350004E4EE7 /* FirebaseFirestore in Frameworks */,
-				FF0A1D752DAB8350004E4EE7 /* FirebaseCore in Frameworks */,
-				FF0A1D732DAB8350004E4EE7 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,11 +121,6 @@
 			);
 			name = ComposableTodo;
 			packageProductDependencies = (
-				FF0A1D702DAB8350004E4EE7 /* FirebaseAnalytics */,
-				FF0A1D722DAB8350004E4EE7 /* FirebaseAuth */,
-				FF0A1D742DAB8350004E4EE7 /* FirebaseCore */,
-				FF0A1D762DAB8350004E4EE7 /* FirebaseFirestore */,
-				FF0A1D792DAB8370004E4EE7 /* ComposableArchitecture */,
 			);
 			productName = ComposableTodo;
 			productReference = FFA709422DAABB8600C97E02 /* ComposableTodo.app */;
@@ -220,8 +205,6 @@
 			mainGroup = FFA709392DAABB8600C97E02;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				FF0A1D6F2DAB8350004E4EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				FF0A1D782DAB8370004E4EE7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FFA709432DAABB8600C97E02 /* Products */;
@@ -588,53 +571,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FF0A1D6F2DAB8350004E4EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.11.0;
-			};
-		};
-		FF0A1D782DAB8370004E4EE7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.19.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FF0A1D702DAB8350004E4EE7 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FF0A1D6F2DAB8350004E4EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		FF0A1D722DAB8350004E4EE7 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FF0A1D6F2DAB8350004E4EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		FF0A1D742DAB8350004E4EE7 /* FirebaseCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FF0A1D6F2DAB8350004E4EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCore;
-		};
-		FF0A1D762DAB8350004E4EE7 /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FF0A1D6F2DAB8350004E4EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		FF0A1D792DAB8370004E4EE7 /* ComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FF0A1D782DAB8370004E4EE7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FFA7093A2DAABB8600C97E02 /* Project object */;
 }
